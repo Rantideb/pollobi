@@ -24,7 +24,10 @@
   <meta name="twitter:image" content="img/photos/amazingYou/img1.jpg" />
 
       <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Open+Sans|Pacifico|Indie+Flower|Great+Vibes" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Primary UI font: Poppins for modern clean look; keep your decorative fonts too -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Do+Hyeon&family=Pacifico&family=Great+Vibes&display=swap" rel="stylesheet">
 
 
       <!-- Bootstrap CSS -->
@@ -43,101 +46,33 @@
 
    </head>
    <body>
+
     <header id="showcase">
-        <div class="dark-overlay container">
-          <div id="chat" class="container">
-            <br><br>
-            <h1 id="heading" style="font-family: 'Great Vibes', cursive; letter-spacing: 1px;
-            word-spacing: 4px; font-size: 2rem; overflow-y: hidden">Because- You don't love me</h1>
-            <br>
-            <br>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div id="chat1" class="right" style="float: right;">
-                  <h3 class="h3-right pl-4 pr-5
-                  pt-2 pb-2" style=" font-family:'Pacifico', cursive;">ছবি দেও তোমার?</h3>
-                  <span><img class="faceIcon" src="img/photos/icon/icon1.jpg"></span>
+      <div class="dark-overlay container">
+        
+        <div class="chat-app container">
+          <div class="chat-window photo-section" role="region" aria-label="Conversation">
+              <div class="chat-topbar" role="toolbar" aria-label="Chat header">
+                <img class="topbar-avatar" src="img/photos/icon/icon3.jpg" alt="Pollobi">
+                <div class="topbar-meta">
+                  <div class="topbar-name">Pollobi</div>
+                  <div class="topbar-status">last seen today</div>
+                </div>
+                <div class="topbar-actions">
+                  <button class="icon-btn" aria-label="Search">🔍</button>
+                  <button class="icon-btn" aria-label="More">⋮</button>
                 </div>
               </div>
-
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div id ="chat2" class="left" style="float: left; display: inline">
-                  <h3 class="h3-left pl-5 pr-4
-                  pt-2 pb-2" style=" font-family: 'Pacifico', cursive;">Hain<span></span></h3>
-                  <span><img class="faceIcon" style="float:left;" src="img/photos/icon/icon3.jpg"></span>
-                </div>
-              </div>
-
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div id ="chat3" class="right" style="float: right; display: inline;">
-                  <h3 class="h3-right pl-4 pr-5
-                  pt-2 pb-2" style=" font-family:'Pacifico', cursive;overflow-y: hidden;">একটা কাজ করো <span><i class="em em-cake"></i></span></h3>
-                  <span><img class="faceIcon" style="float: right;" src="img/photos/icon/icon1.jpg" alt=""></span>
-                </div>
-              </div>
-
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div id ="chat4" class="left" style="float: left; display: inline">
-                  <h3 class="h3-left pl-5 pr-4
-                  pt-2 pb-2" style=" font-family: 'Pacifico', cursive;overflow-y: hidden;">Bolo<span><i class="em em-blush"></i></span></h3>
-                  <span><img class="faceIcon" style="float:left;" src="img/photos/icon/icon3.jpg"></span>
-                </div>
-              </div>
-
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div id ="chat5" class="right" style="float: right; display: inline;">
-                  <h3 class="h3-right pl-4 pr-5
-                  pt-2 pb-2" style=" font-family:'Pacifico', cursive;">Send me your photos; i will create something 🙃</h3>
-                  <span><img class="faceIcon" style="float: right;" src="img/photos/icon/icon1.jpg" alt=""></span>
-                </div>
-              </div>
-
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div id ="chat6" class="left" style="float: left; display: inline">
-                  <h3 class="h3-left pl-5 pr-4
-                  pt-2 pb-2" style=" font-family: 'Pacifico', cursive;">Accha !! 😂😂<span></span></h3>
-                  <span><img class="faceIcon" style="float:left;" src="img/photos/icon/icon3.jpg"></span>
-                </div>
-              </div>
-
-
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div id ="chat7" class="right" style="float: right;">
-                  <h3 class="h3-right pl-4 pr-5
-                  pt-2 pb-2" style=" font-family:'Pacifico', cursive;">শুভ জন্মদিন বলতে হবে কি ? </h3>
-                  <span><img class="faceIcon" src="img/photos/icon/icon1.jpg" alt=""></span>
-                </div>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div class="right chat7" style="float: right;">
-                  <h3 class="h3-right pl-4 pr-5
-                  pt-2 pb-2" style=" font-family:'Pacifico', cursive;">বলো ? </h3>
-                  <span><img class="faceIcon" src="img/photos/icon/icon1.jpg" alt=""></span>
-                </div>
-              </div>
-
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div class="left chat6" style="float: left; display: inline">
-                  <h3 class="h3-left pl-5 pr-4
-                  pt-2 pb-2" style=" font-family: 'Pacifico', cursive;">কি ?<span></span></h3>
-                  <span><img class="faceIcon" style="float:left;" src="img/photos/icon/icon3.jpg"></span>
-                </div>
-              </div>
-
-              
-              <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
-                <div class="right chat7" style="float: right;">
-                  <h3 class="h3-right pl-4 pr-5
-                  pt-2 pb-2" style=" font-family:'Pacifico', cursive;">কিছুনা । I have created this page for you... </h3>
-                  <span><img class="faceIcon" src="img/photos/icon/icon1.jpg" alt=""></span>
-                </div>
-              </div>
-            </div>
-            <br>
-            <br>
-            <br>
+              <ul class="messages" aria-live="polite" aria-relevant="additions"></ul>
+              <!-- footer area: chat input -->
+              <form class="chat-input" aria-label="Send message">
+                <input id="chatInput" type="text" placeholder="Type a message" aria-label="Message" autocomplete="off">
+                <button type="submit" aria-label="Send">Send</button>
+              </form>
           </div>
+
         </div>
+      </div>
     </header>
 
     <!-- AMAZING YOU -->
@@ -650,42 +585,277 @@ You're not alone, and you never will be. I'll be here, a true friend, ready to s
     <!-- Custom main script (after jQuery + Bootstrap) -->
     <script src="main.js"></script>
     <script>
-      // small DOM-ready debug hook + touch-swipe support for Bootstrap 4 carousels
       document.addEventListener('DOMContentLoaded', function () {
+        // debug: list chat elements
         var chat = document.getElementsByClassName('col-lg-12');
         console.log('chat elements:', chat);
 
-        // Enable simple touch swipe for all carousels (works with Bootstrap's carousel)
+        // Lazy-load images and ensure they are keyboard-focusable for accessibility
+        document.querySelectorAll('.photo-size').forEach(function (img) {
+          if (!img.hasAttribute('loading')) img.setAttribute('loading', 'lazy');
+          // allow keyboard focus for opening lightbox
+          img.setAttribute('tabindex', '0');
+          if (!img.alt) img.alt = 'photo';
+        });
+
+        // Minimal lightbox (injected on demand)
+        function openLightbox(src, alt) {
+          var lb = document.createElement('div');
+          lb.className = 'pb-lightbox';
+          lb.setAttribute('role', 'dialog');
+          lb.setAttribute('aria-modal', 'true');
+          lb.innerHTML = '<img src="' + src + '" alt="' + (alt || 'photo') + '" />';
+
+          function close() {
+            if (lb && lb.parentNode) document.body.removeChild(lb);
+            document.removeEventListener('keydown', onKey);
+          }
+
+          function onKey(e) {
+            if (e.key === 'Escape') close();
+          }
+
+          lb.addEventListener('click', function (e) {
+            // close when clicking outside the image
+            if (e.target === lb) close();
+          });
+
+          document.body.appendChild(lb);
+          document.addEventListener('keydown', onKey);
+        }
+
+        // Bind click and key activation for images
+        document.querySelectorAll('.photo-size').forEach(function (img) {
+          img.addEventListener('click', function () {
+            openLightbox(img.currentSrc || img.src || img.getAttribute('data-src'), img.alt || 'photo');
+          });
+          img.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              openLightbox(img.currentSrc || img.src || img.getAttribute('data-src'), img.alt || 'photo');
+            }
+          });
+        });
+
+        // For each carousel: add autoplay toggle and small accessibility attrs
+        document.querySelectorAll('.carousel').forEach(function (carousel) {
+          // ensure ARIA
+          if (!carousel.getAttribute('role')) carousel.setAttribute('role', 'region');
+          if (!carousel.getAttribute('aria-label')) carousel.setAttribute('aria-label', 'photo carousel');
+
+          // inject topbar with play/pause
+          var topbar = document.createElement('div');
+          topbar.className = 'carousel-topbar';
+          var btn = document.createElement('button');
+          btn.className = 'carousel-toggle-btn';
+          btn.type = 'button';
+          // determine if carousel is auto-cycling: if data-ride exists, assume cycling
+          var isAuto = carousel.getAttribute('data-ride') === 'carousel';
+          btn.textContent = isAuto ? 'Pause' : 'Play';
+          topbar.appendChild(btn);
+          carousel.style.position = carousel.style.position || 'relative';
+          carousel.appendChild(topbar);
+
+          var paused = false;
+          btn.addEventListener('click', function () {
+            try {
+              if (paused) {
+                if (window.jQuery) window.jQuery(carousel).carousel('cycle');
+                btn.textContent = 'Pause';
+                paused = false;
+              } else {
+                if (window.jQuery) window.jQuery(carousel).carousel('pause');
+                btn.textContent = 'Play';
+                paused = true;
+              }
+            } catch (e) {
+              console.warn('Carousel control not available', e);
+            }
+          });
+
+          // keyboard support when the carousel is focused
+          carousel.addEventListener('keydown', function (e) {
+            if (e.key === 'ArrowLeft') {
+              if (window.jQuery) window.jQuery(carousel).carousel('prev');
+            } else if (e.key === 'ArrowRight') {
+              if (window.jQuery) window.jQuery(carousel).carousel('next');
+            }
+          });
+        });
+
+        // touch-swipe support 
         var carousels = document.querySelectorAll('.carousel');
         carousels.forEach(function (carousel) {
           var startX = 0;
           var endX = 0;
-
           carousel.addEventListener('touchstart', function (e) {
             startX = e.touches[0].clientX;
-          }, {passive: true});
-
+          }, { passive: true });
           carousel.addEventListener('touchmove', function (e) {
             endX = e.touches[0].clientX;
-          }, {passive: true});
-
+          }, { passive: true });
           carousel.addEventListener('touchend', function (e) {
             var diff = startX - endX;
-            // threshold to avoid accidental swipes
             if (Math.abs(diff) > 40) {
-              // use jQuery/Bootstrap carousel API if available
               if (window.jQuery && typeof window.jQuery(carousel).carousel === 'function') {
-                if (diff > 0) {
-                  window.jQuery(carousel).carousel('next');
-                } else {
-                  window.jQuery(carousel).carousel('prev');
-                }
+                if (diff > 0) window.jQuery(carousel).carousel('next');
+                else window.jQuery(carousel).carousel('prev');
               }
             }
-            // reset
             startX = 0; endX = 0;
-          }, {passive: true});
+          }, { passive: true });
         });
+
+        /* === Chat sequencer === */
+        (function chatSequencer(){
+          var messages = [
+            // use non-breaking spaces so this short Bangla phrase doesn't wrap
+            {from:'me', text: 'ছবি দেও তোমার?'},
+            {from:'them', text: 'Hain'},
+            {from:'me', text: 'একটা কাজ করো'},
+            {from:'them', text: 'Bolo'},
+            {from:'me', text: 'Send me your photos; i will create something'},
+            {from:'them', text: 'Accha !! '},
+            {from:'me', text: 'শুভ জন্মদিন বলতে হবে কি ?'},
+            {from:'me', text: 'বলো ?'},
+            {from:'them', text: 'কি ?'},
+            {from:'me', text: 'কিছুনা । I have created this page for you...'}
+          ];
+
+          var container = document.querySelector('.chat-window .messages');
+          if(!container) return; // no chat
+
+          var avatars = { them: 'img/photos/icon/icon3.jpg', me: 'img/photos/icon/icon1.jpg' };
+
+          function scrollBottom(){
+            // scroll the messages container (only messages should scroll now)
+            var msgs = container;
+            if(msgs) msgs.scrollTop = msgs.scrollHeight;
+          }
+
+          function createMsgEl(msg){
+            var li = document.createElement('li');
+            li.className = 'msg ' + (msg.from === 'me' ? 'from-me' : 'from-them');
+
+            var avatar = document.createElement('img');
+            avatar.className = 'avatar';
+            avatar.src = avatars[msg.from] || avatars.them;
+            avatar.alt = msg.from === 'me' ? 'You' : 'Friend';
+
+            var wrapper = document.createElement('div');
+            var bubble = document.createElement('div');
+            bubble.className = 'bubble enter';
+            bubble.textContent = msg.text;
+
+            var meta = document.createElement('div');
+            meta.className = 'meta';
+            var time = document.createElement('span');
+            time.className = 'time';
+            time.textContent = '';
+            var status = document.createElement('span');
+            status.className = 'status';
+            meta.appendChild(time);
+            meta.appendChild(status);
+
+            wrapper.appendChild(bubble);
+            // place metadata (time / status) inside the bubble so tick appears at
+            // the end of the text and the bubble background only covers the content
+            bubble.appendChild(meta);
+
+            if(msg.from === 'them'){
+              li.appendChild(avatar);
+              li.appendChild(wrapper);
+            } else {
+              li.appendChild(wrapper);
+              li.appendChild(avatar);
+            }
+
+            return { li: li, bubble: bubble, status: status, time: time };
+          }
+
+          function showTypingIndicator(from){
+            var li = document.createElement('li');
+            li.className = 'msg ' + (from === 'me' ? 'from-me' : 'from-them');
+            var avatar = document.createElement('img'); avatar.className='avatar typing-avatar'; avatar.src = avatars[from]; avatar.alt='';
+            var wrapper = document.createElement('div');
+            var typing = document.createElement('div'); typing.className = 'bubble';
+            var t = document.createElement('div'); t.className = 'typing';
+            t.innerHTML = '<span></span><span></span><span></span>';
+            typing.appendChild(t);
+            // place avatar next to typing bubble for the sender
+            if(from === 'them'){
+              li.appendChild(avatar);
+              wrapper.appendChild(typing);
+              li.appendChild(wrapper);
+            } else {
+              wrapper.appendChild(typing);
+              li.appendChild(wrapper);
+              li.appendChild(avatar);
+            }
+            container.appendChild(li);
+            scrollBottom();
+            return li;
+          }
+
+          function removeEl(el){ if(el && el.parentNode) el.parentNode.removeChild(el); }
+
+          function appendMessage(msg, cb){
+            var obj = createMsgEl(msg);
+            container.appendChild(obj.li);
+            // small delay to allow CSS transition
+            requestAnimationFrame(function(){
+              obj.bubble.classList.remove('enter');
+              obj.bubble.classList.add('show');
+            });
+            scrollBottom();
+            if(cb) setTimeout(cb, 220);
+          }
+
+          function simulateStatus(obj){
+            // only outgoing messages (from me) get status checks
+            if(!obj) return;
+            var st = obj.status;
+            // single check (sent) -> double check (delivered) -> seen (blue)
+            var singleSVG = '<svg viewBox="0 0 16 12" aria-hidden="true"><path class="tick" d="M2 6.5 L6 10 L14 2"/></svg>';
+            var doubleSVG = '<svg viewBox="0 0 18 12" aria-hidden="true"><path class="tick" d="M1 7 L6 12 L13 5"/><path class="tick" d="M4 7 L9 12 L16 5"/></svg>';
+            st.innerHTML = singleSVG;
+            setTimeout(function(){ st.innerHTML = doubleSVG; }, 700);
+            setTimeout(function(){ st.classList.add('seen'); }, 1400);
+          }
+
+          // play sequence
+          var idx = 0;
+          function next(){
+            if(idx >= messages.length) return;
+            var msg = messages[idx];
+            // show typing for the sender
+            var typingEl = showTypingIndicator(msg.from);
+            var typingTime = Math.max(600, Math.min(3000, msg.text.length * 45));
+            setTimeout(function(){
+              removeEl(typingEl);
+              // append real message
+              appendMessage(msg, function(){
+                // if outgoing, simulate status transitions by finding last from-me status
+                if(msg.from === 'me'){
+                  // find last .from-me in container
+                  var list = container.querySelectorAll('.msg.from-me');
+                  var last = list[list.length - 1];
+                  if(last){
+                    var status = last.querySelector('.status');
+                    simulateStatus({status: status});
+                  }
+                }
+              });
+              idx++;
+              // small pause before next message starts typing
+              setTimeout(next, 700 + Math.random() * 600);
+            }, typingTime);
+          }
+
+          // start after a short delay so the page loads first
+          setTimeout(next, 700);
+        })();
+
       });
     </script>
   </body>
